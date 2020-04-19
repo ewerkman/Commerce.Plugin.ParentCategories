@@ -13,10 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 4.7.1
     - name: Install dependencies
       run: dotnet restore Sitecore.Commerce.Plugin.Categories/Sitecore.Commerce.Plugin.Categories.csproj
     - name: Build
