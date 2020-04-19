@@ -10,7 +10,7 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-    [PipelineDisplayName("Sitecore.Commerce.Plugin.Categories.Pipelines.Blocks.DoActionAssociateCategoryToSellableItemBlock")]
+    [PipelineDisplayName("Sitecore.Commerce.Plugin.Categories.Pipelines.Blocks.DoActionDisassociateCategoryToSellableItemBlock")]
     public class DoActionDisassociateCategoryFromSellableItemBlock : PipelineBlock<EntityView, EntityView, CommercePipelineExecutionContext>
     {
         protected CommerceCommander Commander { get; set; }

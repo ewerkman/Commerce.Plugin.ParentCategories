@@ -45,18 +45,7 @@ namespace Sitecore.Commerce.Plugin.Categories
                     .Add<DoActionAssociateCategoryToSellableItemBlock>().Before<IFormatEntityViewPipeline>()
                     .Add<DoActionDisassociateCategoryFromSellableItemBlock>().Before<IFormatEntityViewPipeline>()
                     )
-                );
-                
-            // Configure pipelines
-            // services.Sitecore().Pipelines(config => config
-
-            //  .AddPipeline<ISamplePipeline, SamplePipeline>(
-            //         configure =>
-            //             {
-            //                 configure.Add<SampleBlock>();
-            //             })
-
-            //    .ConfigurePipeline<IConfigureServiceApiPipeline>(configure => configure.Add<ConfigureServiceApiBlock>()));
+                );                
 
             services.RegisterAllCommands(assembly);
         }

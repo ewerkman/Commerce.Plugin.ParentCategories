@@ -9,7 +9,7 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-
+    [PipelineDisplayName("Sitecore.Commerce.Plugin.Categories.Pipelines.Blocks.GetParentCategoriesViewBlock")]
     public class GetParentCategoriesViewBlock : PipelineBlock<EntityView, EntityView, CommercePipelineExecutionContext>
     {
         private readonly CatalogCommander commander;

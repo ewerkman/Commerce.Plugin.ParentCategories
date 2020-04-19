@@ -8,7 +8,7 @@
     using System.Collections.Generic;
     using System.Threading.Tasks;
 
-    [PipelineDisplayName("Change to <Project>Constants.Pipelines.Blocks.<Block Name>")]
+    [PipelineDisplayName("Sitecore.Commerce.Plugin.Categories.Pipelines.Blocks.GetAssociateCategoryToSellableItemViewBlock")]
     public class GetAssociateCategoryToSellableItemViewBlock : PipelineBlock<EntityView, EntityView, CommercePipelineExecutionContext>
     {
         protected CommerceCommander Commander { get; set; }

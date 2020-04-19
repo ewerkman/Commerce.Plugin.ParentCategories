@@ -20,14 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="ConfigureServiceApiBlock.cs" />
     <Content Include="ConfigureSitecore.cs" />
-    <Folder Include="Commands\" />
-    <Folder Include="Components\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Entities\" />
-    <Folder Include="Models\" />
-    <Folder Include="Pipelines\Arguments\" />
   </ItemGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
