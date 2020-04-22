@@ -50,7 +50,7 @@
                 {
                     Name = KnownParentCategoriesViewActionsPolicy.AssociateCategoryToSellableItem,
                     DisplayName = "Associate Category",
-                    Description = "Associate to a Sellable Item",
+                    Description = "Associate to a Category",
                     IsEnabled = true,
                     EntityView = context.GetPolicy<KnownCatalogViewsPolicy>().Details,
                     RequiresConfirmation = false,
